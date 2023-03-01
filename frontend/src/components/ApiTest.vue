@@ -30,7 +30,7 @@ export default {
       return dateTime.toLocaleString();
     },
     async fetchWeather(latitude, longitude) {
-      const apiKey = "847b05da3b93c71c9b2235ea837209d3";
+      const apiKey = "ENTER_API_KEY_PPROVIDED_IN_EMAIL";
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
       try {

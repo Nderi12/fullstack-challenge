@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <!-- Add more nav links as needed -->
+            <!-- more nav links -->
           </ul>
         </div>
       </div>

@@ -88,8 +88,8 @@ export default {
                   <td>{{ user.longitude }}</td>
                   <td>{{ formatDateTime(user.created_at) }}</td>
                   <td>
-                    <button @click="openModal(user)" class="btn btn-primary">
-                      Action
+                    <button @click="openModal(user)" class="btn btn-sm btn-primary">
+                      View Details
                     </button>
                   </td>
                 </tr>
